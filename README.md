@@ -1,58 +1,76 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Challenge Template
+# Python Command Line Application
 
-Use this template to structure your READMEs for diagnostics.
-
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)). Also, include an appropriate
-`.gitignore`; these are usually found in specific technology templates, for
-example [js-template](https://www.github.com/ga-wdi-boston/js-template).
+To learn Python and SQL, you'll be building a command line application!
 
 ## Prerequisites
 
--   Topics with which developers should be familiar with.
--   Prerequisites are "just-in-time", so if I have a prerequisite that mentions
-    Sass, I would **not** need to include CSS as a prerequisite.
--   [Links to previous materials](https://www.github.com/ga-wdi-boston/example)
-    are often useful.
--   In a challenge, it is useful to link to reference material, such as talk
-    repositories.
+- Python
+- SQL and PeeWee
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Create and checkout a new branch to work on.
+1.  Create a new repository on GitHub (not GitHub Enterprise)
+1. Clone down the repository and complete your work in there.
 1.  Fulfill the listed requirements.
 
-Starter code is available in [`lib/challenge.js`](lib/challenge.js). A pull
-request is not required, but it is necessary if you want a code review.
-
-You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
-related to [forking,
-cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
+Your submission is due by the deadline on your cohort calendar. Submit your
+project by creating an issue on this repository.
 
 ## Requirements
 
-Describe behavioral requirements as you'll be using them in tests. That is,
-list requirements in language that describes how the written code will be used,
-not how it will be written, with the exception of constraints you may wish to
-place on implementation. It's a good idea to include the below paragraph
-verbatim.
+Your project should meet the following requirements:
 
-You should be running `grunt nag` before diagnosing any bugs, since it finds
-some of the most common sources of errors. After `grunt nag` passes, you should
-run `grunt test` to run the included tests. Tests will tell you whether of not
-you've met these requirements.
+1. Run without errors
+1. Built in Python, use a SQL database with PeeWee models
+1. Include a README written in well formatted Markdown (_hint: look up a README
+   template_)
+1. Shows a good commit history with frequent commits. We're looking for lots of
+   small commits
+
+## Project Ideas
+
+Pick one of the following project ideas and implement it with Python, through
+the command line. You can use `argparse` or a framework for your command line
+application. [Read more
+here](https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/).
+
+> If you have an idea for something else you'd like to build, you must run it by
+> an instructor first.
+
+### Flash cards
+
+A user should be able to create new cards. They should be able to set up
+a training session, pick the number of cards they'd like to review and then see
+that many cards. For each card, they should be presented with the "front" and
+then asked for the "back". Keep track of how many times a card has been answered
+correctly and incorrectly.
+
+### Contact Book
+
+Users should be able to create new contacts. They should be able to
+see a list of contacts in their contact book. They should be able to find
+a contact by the contact's first name.
+
+### Bookmark Collector
+
+Users should be able to add new bookmarks (links). They should be able to see
+a list of their bookmarks by the webpage title and see the details of that
+bookmark. They should be able to find bookmarks by name/title of the webpage.
+
+### Note Taker
+
+Users sould be able to create notes with titles and contents. They should be
+able to see a list of their notes and select and view a specific note.
 
 ## Bonus
 
-Bonuses are described after the requirements, if included. They should be worked
-on **only after** passing requirements.
+Once you have the command line version working consider the following bonuses:
 
-Sometimes, we ask questions that promote thinking critically about code.
+1. Get Update and Delete working
+1. Build a user interface with [tkinter](https://docs.python.org/3/library/tk.html), [pygame](https://www.pygame.org/), or [PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/)
+1. Use web scraping to pull data from a webpage using [requests](https://2.python-requests.org/en/master/) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 ## [License](LICENSE)
 
