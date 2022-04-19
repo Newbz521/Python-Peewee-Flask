@@ -2,13 +2,7 @@
 
 # Python and Flask Project
 
-Create an API using Python, Flask, and SQL!
-
-## Prerequisites
-
-- Python
-- SQL and PeeWee
-- Flask
+Create an API using Python, Flask and SQL!
 
 ## Instructions
 
@@ -21,51 +15,26 @@ project by creating an issue on this repository.
 
 ## Requirements
 
-For this project, you're going to find a dataset and build an API using Python,
-SQL, and Flask.
+For this project, you're going to create a dataset and build an API using Python, SQL and Flask.
 
 Your project should meet the following requirements:
 
 1. Run without errors
 1. Built in Python and Flask, use a SQL database with PeeWee models
-1. Have at least one model
-1. Have a list and show route for every model
-1. Include a README written in well formatted Markdown (_hint: look up a README
+1. Have two models with a *relationship* between them (either one-to-one, one-to-many or many-to-many)
+1. Have all four CRUD operations for at least one of the models
+1. Include a README written in well-formatted Markdown (_hint: look up a README
    template_)
 1. Shows a good commit history with frequent commits. We're looking for lots of
    small commits
 
 ## Submission
 
-***DO NOT FORK THIS REPOSITORY!*** Create a **new** repository, then submit your
-project as an issue on this repository.
-
-## Potential APIs to use
-
-- https://api.nasa.gov/
-- https://developer.nytimes.com/
-- https://www.api-football.com/
-- https://developer.musixmatch.com/
-- https://restcountries.eu/
-- http://urbanscraper.herokuapp.com/
-- https://www.wordsapi.com/
-- https://www.themoviedb.org/documentation/api
-- https://www.nutritionix.com/business/api
-- [A collective list of free APIs for use in software and web development.](https://github.com/public-apis/public-apis)
-
-You could also use one of the [Data is
-Plural](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
-or [Kaggle](https://www.kaggle.com/datasets) data sets. Data is Plural is
-a weekly email newsletter of interesting and unique datasets and APIs. Their
-archive contains every dataset or API they've featured.
+***DO NOT FORK THIS REPOSITORY!*** Create a **new** repository, then submit your project as an issue on this repository.
 
 ## Bonus
 
-Once you have the base requirements met, consider one of the following bonuses:
-
-1. Get Update and Delete working
-1. Use web scraping to get more data. Here are two good sources to get you
-   started:
+Once you have the base requirements met, use web scraping to get more data. Here are two good sources to get you started:
    - [Practical Introduction to Web Scraping in Python](https://realpython.com/python-web-scraping-practical-introduction/)
    - [How to scrape websites with Python and BeautifulSoup](https://www.freecodecamp.org/news/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe/)
 
