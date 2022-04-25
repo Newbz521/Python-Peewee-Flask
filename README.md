@@ -21,12 +21,13 @@ Your project should meet the following requirements:
 
 1. Run without errors
 1. Built in Python and Flask, use a SQL database with PeeWee models
-1. Have two models with a *relationship* between them (either one-to-one, one-to-many or many-to-many)
-1. Have Create, Read and Delete operations for at least one of the models
+1. Have Create, Read and Delete operations for at least one model
 1. Include a README written in well-formatted Markdown (_hint: look up a README
    template_)
 1. Shows a good commit history with frequent commits. We're looking for lots of
    small commits
+   
+Note that deployment will not be a requirement. 
 
 ## Submission
 
@@ -34,9 +35,9 @@ Your project should meet the following requirements:
 
 ## Bonus
 
-Once you have the base requirements met, add the Update method for one of your models.
-
-For more, use web scraping to get more data. Here are two good sources to get you started:
+- Finish your CRUD operations by including "update" on your model. 
+- Add a second model that has a one-to-many or many-to-many relationship
+- Use web scraping to get your seed data. Here are two good sources to get you started:
    - [Practical Introduction to Web Scraping in Python](https://realpython.com/python-web-scraping-practical-introduction/)
    - [How to scrape websites with Python and BeautifulSoup](https://www.freecodecamp.org/news/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe/)
 
